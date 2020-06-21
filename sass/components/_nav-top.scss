@@ -1,0 +1,34 @@
+.nav {
+  background-color: $color-primary--dark;
+  height: 4.1rem;
+  text-transform: uppercase;
+
+  &-ul {
+    font-size: 2rem; 
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4rem;
+  }
+  
+  &-li {
+
+
+    &:hover {
+      
+    }
+  }
+
+  &-link {
+    color: $color-white;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+
+    &:hover {
+      color: $color-black; 
+      background-color: $color-primary--med;
+    }
+
+  }
+}
