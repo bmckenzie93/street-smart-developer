@@ -1,10 +1,11 @@
 .nav {
   background-color: $color-primary--dark;
-  height: 4.1rem;
+  height: 5rem;
   text-transform: uppercase;
+  
 
   &-ul {
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -12,23 +13,25 @@
     margin-right: 4rem;
   }
   
+
   &-li {
-
-
-    &:hover {
-      
-    }
-  }
-
-  &-link {
-    color: $color-white;
     padding: 1rem 4rem;
     border-radius: 1rem;
+    
+  }
+
+
+  &-link {
+    display: block;
+    color: $color-white;
+    border-bottom: 5px solid transparent;
+    padding-bottom: .5rem;
+    transition: all .15s ease-in;
 
     &:hover {
-      color: $color-black; 
-      background-color: $color-primary--med;
+      border-bottom: 10px solid $color-primary;
+      // font-weight: bold;
+      transform: translateY(-5px);
     }
-
   }
 }
