@@ -1,4 +1,4 @@
-//    HEADINGS
+//    HEADING
 
 .title-primary {
   font-size: 3rem;
@@ -20,18 +20,14 @@
 
 .ordered-article-list {
   &-item {
-    font-size: 4rem;
-    &::marker {
-      font-size: 5rem;
-    }
-
+    font-size: 2rem;
   }
 }
 
-.ordered-article-heading-text {
-  font-size: 3rem;
+.ordered-article-heading {
   text-transform: uppercase;
-  line-height: .5;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 
@@ -63,7 +59,7 @@
 //    ARTICLES
 
 .article-title {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -72,3 +68,19 @@
   font-weight: 400;
   margin-bottom: 1.5rem;
 }
+
+.inner-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  
+  &:last-child {
+    margin-bottom: 6rem;
+  }
+}
+
