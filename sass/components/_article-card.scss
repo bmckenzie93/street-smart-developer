@@ -7,7 +7,7 @@
   border-radius: 20px;
 
   &-image-box {
-    height: 100%;
+    min-height: 100%;
     flex: 2;
     min-width: 6rem;
     margin: auto;
@@ -22,4 +22,9 @@
   &-info-box {
     flex: 5
   }
+}
+
+.article-link-box {
+  display: block;
+  text-align: right;
 }

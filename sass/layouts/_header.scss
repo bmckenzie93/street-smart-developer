@@ -1,9 +1,10 @@
 .header {
-  height: calc(95vh - 5rem);
   line-height: 2;
   background-color: $color-black;
   display: flex;
   align-items: center;
+  padding-bottom: 6rem;
+  overflow: hidden;
 
   &-title {
     text-align: center;
